@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  RequestsViewController.h
 //  ChatApp
 //
 //  Created by Rewa on 30/10/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface RequestsViewController : UIViewController
 
 @end
-

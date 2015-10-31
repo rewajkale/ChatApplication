@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  MessengerViewController.h
 //  ChatApp
 //
 //  Created by Rewa on 30/10/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface MessengerViewController : UIViewController
 
 @end
-

@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		C938A8F91BE46CD1002116DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A8F81BE46CD1002116DA /* main.m */; };
 		C938A8FC1BE46CD1002116DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A8FB1BE46CD1002116DA /* AppDelegate.m */; };
-		C938A8FF1BE46CD1002116DA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A8FE1BE46CD1002116DA /* FirstViewController.m */; };
-		C938A9021BE46CD1002116DA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A9011BE46CD1002116DA /* SecondViewController.m */; };
 		C938A9051BE46CD1002116DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C938A9031BE46CD1002116DA /* Main.storyboard */; };
 		C938A9071BE46CD1002116DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C938A9061BE46CD1002116DA /* Images.xcassets */; };
 		C938A90A1BE46CD1002116DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C938A9081BE46CD1002116DA /* LaunchScreen.xib */; };
 		C938A9161BE46CD2002116DA /* ChatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A9151BE46CD2002116DA /* ChatAppTests.m */; };
+		C938A9241BE4761B002116DA /* NewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A9231BE4761B002116DA /* NewsFeedViewController.m */; };
+		C938A9271BE4763D002116DA /* RequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A9261BE4763C002116DA /* RequestsViewController.m */; };
+		C938A92A1BE47650002116DA /* MessengerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A9291BE47650002116DA /* MessengerViewController.m */; };
+		C938A92D1BE4766B002116DA /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A92C1BE4766B002116DA /* NotificationsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +35,20 @@
 		C938A8F81BE46CD1002116DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C938A8FA1BE46CD1002116DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C938A8FB1BE46CD1002116DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C938A8FD1BE46CD1002116DA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		C938A8FE1BE46CD1002116DA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		C938A9001BE46CD1002116DA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		C938A9011BE46CD1002116DA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C938A9041BE46CD1002116DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C938A9061BE46CD1002116DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C938A9091BE46CD1002116DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C938A90F1BE46CD2002116DA /* ChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C938A9141BE46CD2002116DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C938A9151BE46CD2002116DA /* ChatAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatAppTests.m; sourceTree = "<group>"; };
+		C938A9221BE4761B002116DA /* NewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedViewController.h; sourceTree = "<group>"; };
+		C938A9231BE4761B002116DA /* NewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedViewController.m; sourceTree = "<group>"; };
+		C938A9251BE4763C002116DA /* RequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestsViewController.h; sourceTree = "<group>"; };
+		C938A9261BE4763C002116DA /* RequestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestsViewController.m; sourceTree = "<group>"; };
+		C938A9281BE47650002116DA /* MessengerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessengerViewController.h; sourceTree = "<group>"; };
+		C938A9291BE47650002116DA /* MessengerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessengerViewController.m; sourceTree = "<group>"; };
+		C938A92B1BE4766B002116DA /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsViewController.h; sourceTree = "<group>"; };
+		C938A92C1BE4766B002116DA /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,14 +92,18 @@
 			children = (
 				C938A8FA1BE46CD1002116DA /* AppDelegate.h */,
 				C938A8FB1BE46CD1002116DA /* AppDelegate.m */,
-				C938A8FD1BE46CD1002116DA /* FirstViewController.h */,
-				C938A8FE1BE46CD1002116DA /* FirstViewController.m */,
-				C938A9001BE46CD1002116DA /* SecondViewController.h */,
-				C938A9011BE46CD1002116DA /* SecondViewController.m */,
 				C938A9031BE46CD1002116DA /* Main.storyboard */,
 				C938A9061BE46CD1002116DA /* Images.xcassets */,
 				C938A9081BE46CD1002116DA /* LaunchScreen.xib */,
 				C938A8F61BE46CD1002116DA /* Supporting Files */,
+				C938A9221BE4761B002116DA /* NewsFeedViewController.h */,
+				C938A9231BE4761B002116DA /* NewsFeedViewController.m */,
+				C938A9251BE4763C002116DA /* RequestsViewController.h */,
+				C938A9261BE4763C002116DA /* RequestsViewController.m */,
+				C938A9281BE47650002116DA /* MessengerViewController.h */,
+				C938A9291BE47650002116DA /* MessengerViewController.m */,
+				C938A92B1BE4766B002116DA /* NotificationsViewController.h */,
+				C938A92C1BE4766B002116DA /* NotificationsViewController.m */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -224,10 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C938A9021BE46CD1002116DA /* SecondViewController.m in Sources */,
+				C938A92A1BE47650002116DA /* MessengerViewController.m in Sources */,
 				C938A8FC1BE46CD1002116DA /* AppDelegate.m in Sources */,
-				C938A8FF1BE46CD1002116DA /* FirstViewController.m in Sources */,
 				C938A8F91BE46CD1002116DA /* main.m in Sources */,
+				C938A9271BE4763D002116DA /* RequestsViewController.m in Sources */,
+				C938A9241BE4761B002116DA /* NewsFeedViewController.m in Sources */,
+				C938A92D1BE4766B002116DA /* NotificationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
