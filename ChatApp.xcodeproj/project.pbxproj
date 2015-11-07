@@ -17,6 +17,9 @@
 		C938A9271BE4763D002116DA /* RequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A9261BE4763C002116DA /* RequestsViewController.m */; };
 		C938A92A1BE47650002116DA /* MessengerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A9291BE47650002116DA /* MessengerViewController.m */; };
 		C938A92D1BE4766B002116DA /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A92C1BE4766B002116DA /* NotificationsViewController.m */; };
+		C9D555D41BE53157002FC670 /* Artist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9D555D21BE53157002FC670 /* Artist.xcdatamodeld */; };
+		C9D555D71BE5316E002FC670 /* Clients.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9D555D51BE5316E002FC670 /* Clients.xcdatamodeld */; };
+		C9D8E8851BED1EB700993E31 /* Registration.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8E8841BED1EB700993E31 /* Registration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,10 @@
 		C938A9291BE47650002116DA /* MessengerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessengerViewController.m; sourceTree = "<group>"; };
 		C938A92B1BE4766B002116DA /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsViewController.h; sourceTree = "<group>"; };
 		C938A92C1BE4766B002116DA /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewController.m; sourceTree = "<group>"; };
+		C9D555D31BE53157002FC670 /* Artist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Artist.xcdatamodel; sourceTree = "<group>"; };
+		C9D555D61BE5316E002FC670 /* Clients.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clients.xcdatamodel; sourceTree = "<group>"; };
+		C9D8E8831BED1EB700993E31 /* Registration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Registration.h; sourceTree = "<group>"; };
+		C9D8E8841BED1EB700993E31 /* Registration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Registration.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +99,12 @@
 			children = (
 				C938A8FA1BE46CD1002116DA /* AppDelegate.h */,
 				C938A8FB1BE46CD1002116DA /* AppDelegate.m */,
+				C9D8E8831BED1EB700993E31 /* Registration.h */,
+				C9D8E8841BED1EB700993E31 /* Registration.m */,
 				C938A9031BE46CD1002116DA /* Main.storyboard */,
 				C938A9061BE46CD1002116DA /* Images.xcassets */,
+				C9D555D21BE53157002FC670 /* Artist.xcdatamodeld */,
+				C9D555D51BE5316E002FC670 /* Clients.xcdatamodeld */,
 				C938A9081BE46CD1002116DA /* LaunchScreen.xib */,
 				C938A8F61BE46CD1002116DA /* Supporting Files */,
 				C938A9221BE4761B002116DA /* NewsFeedViewController.h */,
@@ -236,9 +247,12 @@
 			files = (
 				C938A92A1BE47650002116DA /* MessengerViewController.m in Sources */,
 				C938A8FC1BE46CD1002116DA /* AppDelegate.m in Sources */,
+				C9D8E8851BED1EB700993E31 /* Registration.m in Sources */,
 				C938A8F91BE46CD1002116DA /* main.m in Sources */,
+				C9D555D41BE53157002FC670 /* Artist.xcdatamodeld in Sources */,
 				C938A9271BE4763D002116DA /* RequestsViewController.m in Sources */,
 				C938A9241BE4761B002116DA /* NewsFeedViewController.m in Sources */,
+				C9D555D71BE5316E002FC670 /* Clients.xcdatamodeld in Sources */,
 				C938A92D1BE4766B002116DA /* NotificationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +450,7 @@
 				C938A91B1BE46CD2002116DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C938A91C1BE46CD2002116DA /* Build configuration list for PBXNativeTarget "ChatAppTests" */ = {
 			isa = XCConfigurationList;
@@ -444,8 +459,32 @@
 				C938A91E1BE46CD2002116DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9D555D21BE53157002FC670 /* Artist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9D555D31BE53157002FC670 /* Artist.xcdatamodel */,
+			);
+			currentVersion = C9D555D31BE53157002FC670 /* Artist.xcdatamodel */;
+			path = Artist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		C9D555D51BE5316E002FC670 /* Clients.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9D555D61BE5316E002FC670 /* Clients.xcdatamodel */,
+			);
+			currentVersion = C9D555D61BE5316E002FC670 /* Clients.xcdatamodel */;
+			path = Clients.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C938A8EB1BE46CD1002116DA /* Project object */;
 }
