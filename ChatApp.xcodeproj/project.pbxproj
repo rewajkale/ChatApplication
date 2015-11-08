@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91CCAC81BEEF4100060A015 /* Registration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C91CCAC61BEEF4100060A015 /* Registration.xcdatamodeld */; };
+		C91CCACB1BEF00A50060A015 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = C91CCACA1BEF00A50060A015 /* Artist.m */; };
 		C938A8F91BE46CD1002116DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A8F81BE46CD1002116DA /* main.m */; };
 		C938A8FC1BE46CD1002116DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A8FB1BE46CD1002116DA /* AppDelegate.m */; };
 		C938A9051BE46CD1002116DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C938A9031BE46CD1002116DA /* Main.storyboard */; };
@@ -17,8 +19,6 @@
 		C938A9271BE4763D002116DA /* RequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A9261BE4763C002116DA /* RequestsViewController.m */; };
 		C938A92A1BE47650002116DA /* MessengerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A9291BE47650002116DA /* MessengerViewController.m */; };
 		C938A92D1BE4766B002116DA /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C938A92C1BE4766B002116DA /* NotificationsViewController.m */; };
-		C9D555D41BE53157002FC670 /* Artist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9D555D21BE53157002FC670 /* Artist.xcdatamodeld */; };
-		C9D555D71BE5316E002FC670 /* Clients.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9D555D51BE5316E002FC670 /* Clients.xcdatamodeld */; };
 		C9D8E8851BED1EB700993E31 /* Registration.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8E8841BED1EB700993E31 /* Registration.m */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C91CCAC71BEEF4100060A015 /* Registration.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Registration.xcdatamodel; sourceTree = "<group>"; };
+		C91CCAC91BEF00A50060A015 /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Artist.h; path = ../Artist.h; sourceTree = "<group>"; };
+		C91CCACA1BEF00A50060A015 /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Artist.m; path = ../Artist.m; sourceTree = "<group>"; };
 		C938A8F31BE46CD1002116DA /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C938A8F71BE46CD1002116DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C938A8F81BE46CD1002116DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,8 +55,6 @@
 		C938A9291BE47650002116DA /* MessengerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessengerViewController.m; sourceTree = "<group>"; };
 		C938A92B1BE4766B002116DA /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsViewController.h; sourceTree = "<group>"; };
 		C938A92C1BE4766B002116DA /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewController.m; sourceTree = "<group>"; };
-		C9D555D31BE53157002FC670 /* Artist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Artist.xcdatamodel; sourceTree = "<group>"; };
-		C9D555D61BE5316E002FC670 /* Clients.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clients.xcdatamodel; sourceTree = "<group>"; };
 		C9D8E8831BED1EB700993E31 /* Registration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Registration.h; sourceTree = "<group>"; };
 		C9D8E8841BED1EB700993E31 /* Registration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Registration.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,8 +104,6 @@
 				C9D8E8841BED1EB700993E31 /* Registration.m */,
 				C938A9031BE46CD1002116DA /* Main.storyboard */,
 				C938A9061BE46CD1002116DA /* Images.xcassets */,
-				C9D555D21BE53157002FC670 /* Artist.xcdatamodeld */,
-				C9D555D51BE5316E002FC670 /* Clients.xcdatamodeld */,
 				C938A9081BE46CD1002116DA /* LaunchScreen.xib */,
 				C938A8F61BE46CD1002116DA /* Supporting Files */,
 				C938A9221BE4761B002116DA /* NewsFeedViewController.h */,
@@ -115,6 +114,9 @@
 				C938A9291BE47650002116DA /* MessengerViewController.m */,
 				C938A92B1BE4766B002116DA /* NotificationsViewController.h */,
 				C938A92C1BE4766B002116DA /* NotificationsViewController.m */,
+				C91CCAC61BEEF4100060A015 /* Registration.xcdatamodeld */,
+				C91CCAC91BEF00A50060A015 /* Artist.h */,
+				C91CCACA1BEF00A50060A015 /* Artist.m */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -249,10 +251,10 @@
 				C938A8FC1BE46CD1002116DA /* AppDelegate.m in Sources */,
 				C9D8E8851BED1EB700993E31 /* Registration.m in Sources */,
 				C938A8F91BE46CD1002116DA /* main.m in Sources */,
-				C9D555D41BE53157002FC670 /* Artist.xcdatamodeld in Sources */,
+				C91CCAC81BEEF4100060A015 /* Registration.xcdatamodeld in Sources */,
 				C938A9271BE4763D002116DA /* RequestsViewController.m in Sources */,
 				C938A9241BE4761B002116DA /* NewsFeedViewController.m in Sources */,
-				C9D555D71BE5316E002FC670 /* Clients.xcdatamodeld in Sources */,
+				C91CCACB1BEF00A50060A015 /* Artist.m in Sources */,
 				C938A92D1BE4766B002116DA /* NotificationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,23 +466,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C9D555D21BE53157002FC670 /* Artist.xcdatamodeld */ = {
+		C91CCAC61BEEF4100060A015 /* Registration.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C9D555D31BE53157002FC670 /* Artist.xcdatamodel */,
+				C91CCAC71BEEF4100060A015 /* Registration.xcdatamodel */,
 			);
-			currentVersion = C9D555D31BE53157002FC670 /* Artist.xcdatamodel */;
-			path = Artist.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		C9D555D51BE5316E002FC670 /* Clients.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C9D555D61BE5316E002FC670 /* Clients.xcdatamodel */,
-			);
-			currentVersion = C9D555D61BE5316E002FC670 /* Clients.xcdatamodel */;
-			path = Clients.xcdatamodeld;
+			currentVersion = C91CCAC71BEEF4100060A015 /* Registration.xcdatamodel */;
+			path = Registration.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
