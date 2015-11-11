@@ -18,6 +18,10 @@
 static int check=0;
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.ulbl.delegate=self;
+    self.plbl.delegate=self;
+    self.rplbl.delegate=self;
+    self.pholbl.delegate=self;
     // Do any additional setup after loading the view, typically from a nib.
     /*AppDelegate *ad = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     NSManagedObjectContext *moc = ad.managedObjectContext;
@@ -190,9 +194,17 @@ static int check=0;
 }
 - (IBAction)register_user:(id)sender {
         //[self dismissViewControllerAnimated:YES completion:nil];
+    NSCharacterSet *alphanum=[NSCharacterSet decimalDigitCharacterSet];
+    NSCharacterSet *myString=[NSCharacterSet characterSetWithCharactersInString:self.pholbl.text];
+    BOOL valid=[alphanum isSupersetOfSet:myString];
     if([self.ulbl.text isEqualToString:@""]||[self.plbl.text isEqualToString:@""]||[self.rplbl.text isEqualToString:@""])
     {
         UIAlertView *error=[[UIAlertView alloc]initWithTitle:@"Oops" message:@"You must complete all the fields" delegate:self  cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+        [error show];
+    }
+    else if(!valid)
+    {
+        UIAlertView *error=[[UIAlertView alloc]initWithTitle:@"Oops" message:@"PhoneNumber can only contain numbers" delegate:self  cancelButtonTitle:@"Ok" otherButtonTitles:nil];
         [error show];
     }
     else
@@ -260,5 +272,10 @@ static int check=0;
     [success show];
     
     [self performSegueWithIdentifier:@"login" sender:self];
+}
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
 }
 @end

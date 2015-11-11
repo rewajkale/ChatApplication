@@ -4,8 +4,16 @@
         <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="artists" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Client" inverseName="clients" inverseEntity="Client" syncable="YES"/>
+    </entity>
+    <entity name="Client" representedClassName="Client" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="clients" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Artist" inverseName="artists" inverseEntity="Artist" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Artist" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Artist" positionX="-299" positionY="-36" width="128" height="103"/>
+        <element name="Client" positionX="-63" positionY="9" width="128" height="103"/>
     </elements>
 </model>

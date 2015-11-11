@@ -9,9 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@interface Registration : UIViewController <UIAlertViewDelegate>
-
-@property NSMutableArray *artistsArray;
+@interface Registration : UIViewController <UIAlertViewDelegate, UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *lblu;
 @property (weak, nonatomic) IBOutlet UITextField *ulbl;
 @property (weak, nonatomic) IBOutlet UILabel *lblp;
